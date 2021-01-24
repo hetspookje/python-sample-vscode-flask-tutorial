@@ -6,7 +6,10 @@
 trigger:
 - main
 
-pool: 'NAV and Smart TAR'
+pool: 
+  name: NAV and Smart TAR
+  demands: MachineLearning
+
 strategy:
   matrix:
     Python27:
