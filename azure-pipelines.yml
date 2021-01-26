@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool: 
-  name: NAV and Smart TAR
+  name: MachineLearning
   demands: MachineLearning
 
 strategy:
